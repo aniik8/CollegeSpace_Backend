@@ -134,6 +134,8 @@ AUTH_USER_MODEL = 'User.CustomUser'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://college-spaces.herokuapp.com",
+    "http://college-spaces.herokuapp.com"
 ]
 
 REST_FRAMEWORK = {
