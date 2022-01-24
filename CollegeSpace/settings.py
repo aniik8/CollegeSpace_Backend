@@ -162,7 +162,7 @@ SIMPLE_JWT = {
 ASGI_APPLICATION = "CollegeSpace.routing.application"
 
 #for production level
-
+"""
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
@@ -172,8 +172,9 @@ CHANNEL_LAYERS = {
     },
 }
 """
+
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels.layers.InMemoryChannelLayer"
     }
-}"""
+}
